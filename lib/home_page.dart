@@ -33,6 +33,7 @@ class HomePage extends ConsumerWidget {
           ? Shimmer.fromColors(
               baseColor: Colors.grey[300]!,
               highlightColor: Colors.grey[100]!,
+              direction: ShimmerDirection.ttb,
               child: const ShimmerEffectPage(),
             )
           : SingleChildScrollView(
