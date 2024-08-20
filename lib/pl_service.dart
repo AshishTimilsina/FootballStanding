@@ -16,6 +16,7 @@ class PremierLeagueService {
                     "2488c82492mshebb818e0d01b786p139d76jsnb77fff15b6b2",
                 "X-RapidAPI-Host": "premier-league-standings1.p.rapidapi.com",
               }));
+      print(response.data);
       final extracteddata = (response.data as List)
           .map((e) => PremierLeague.fromJson(e))
           .toList();

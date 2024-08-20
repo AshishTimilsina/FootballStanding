@@ -161,7 +161,7 @@ class HomePage extends ConsumerWidget {
                               style: numstyle,
                             )),
                             DataCell(Text(
-                              pldata.pl[index].goalsAgainst.toString(),
+                              pldata.pl[index].goalDifference.toString(),
                               style: numstyle,
                             )),
                             DataCell(Text(
